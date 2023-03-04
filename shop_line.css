@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    background-color: #ebf1f8;
+}
+
+header img {
+    width: 160px;
+    height: 26px;
+    padding: 15px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+header .item {
+    width: 1071px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    background-color: #ebf1f8;
+    padding: 10px;
+}
+
+header .log_in {
+    justify-content: end;
+    align-items: end;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.log_in a {
+    color: #052855;
+    margin: 0px 5px;
+}
+
+
+header .item ul {
+    width: 100%;
+    box-sizing: border-box;
+    color: #052855;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .item li a {
+    color: #052855;
+}
+
+
+header a {
+    text-decoration: none;
+}
+
+header .button {
+    width: 144px;
+    /* vertical-align: middle; */
+    color: white;
+    text-align: center;
+    background-color: #0061ff;
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin: 0px 10px;
+}
+
+.first {
+
+    background-color: #ebf1f8;
+}
+
+.first .wrap {
+    width: 1071px;
+    margin: auto;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.first .text {
+    padding: 80px 10px;
+    width: 60%;
+}
+
+.first .pic {
+    width: 40%;
+}
+
+.first h1 {
+    margin: 10px 10px;
+    color: #052855;
+}
+
+.first .free {
+    display: flex;
+    width: 320px;
+    height: 48px;
+    color: white;
+    background-color: #0061ff;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first p {
+    margin: 10px 10px;
+    color: #052855;
+}
+
+.first .credit_card {
+    font-size: 9px;
+    color: #052855;
+}
+
+.first .pic {
+    display: flex;
+    align-items: end;
+}
+
+.first .null {
+    height: 80px;
+    background-color: #ebf1f8;
+}
+
+.solgan {
+    background-color: #f7f8f9;
+}
+
+.solgan .wrap {
+    width: 1071px;
+    margin: auto;
+    text-align: center;
+    color: #052855;
+}
+
+.solgan h1 {
+    padding: 20px;
+}
+
+
+.middle .wrap {
+    width: 1071px;
+    display: flex;
+    margin: auto;
+}
+
+
+.middle .item {
+    width: 510px;
+    margin: auto;
+}
+
+.middle .wrap:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.middle .content {
+    width: 510px;
+    display: flex;
+
+}
+
+.middle ul {
+    padding: 0px 20px;
+}
+.middle li{
+    margin: 10px;
+}
+
+.middle a {
+    color: #0061ff;
+    text-decoration: none;
+    border-bottom: 2px solid #0061ff;
+}
+
+.more{
+    background-color: #f7f8f9;
+}
+.more .wrap{
+    width: 1071px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.more .item{
+    width: 335px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.more h2{
+    text-align: center;
+    width: 1071px;
+    margin: auto;
+    padding: 50px 
+}
+
+.top_brand h2{
+    margin: auto;
+    text-align: center;
+    padding: 50px
+}
+.top_brand .pic:nth-child(1):before {
+    width: 147px;
+    height: 74px;
+    content: url("https://img.shoplineapp.com/media/image_clips/62e0dd7d80c343001d8c1557/original.png?1658903932");
+}
+
+.top_brand .pic:nth-child(2):before{
+   content: url("https: //img.shoplineapp.com/media/image_clips/62e0dd7cd1cefe002cad488f/original.png?1658903932");
+}
+.top_brand .pic:nth-child(2)::after{
+    width: 147px;
+    height: 74px;
+    content: url("https://img.shoplineapp.com/media/image_clips/62e0dd7cd1cefe002cad488f/original.png?1658903932");
+}
+.top_brand .pic:nth-child(3):before{
+    width: 147px;
+    height: 74px;
+    content:url("https://img.shoplineapp.com/media/image_clips/62e0dd7cff5a6400203466a2/original.png?1658903932");
+}
+.top_brand .pic:nth-child(4):before{
+    content:url("https: //img.shoplineapp.com/media/image_clips/62e0dd7ce1def0001d306e77/original.png?1658903932");
+}
+.top_brand .pic:nth-child(4)::after{
+    width: 147px;
+    height: 74px;
+    content: url("https://img.shoplineapp.com/media/image_clips/62e0dd7ce1def0001d306e77/original.png?1658903932");
+}
+
+.top_brand .pic:nth-child(5):before{
+    content: url("https: //img.shoplineapp.com/media/image_clips/62e0dd7cd0680b001199fe3d/original.png?1658903932");
+}
+.top_brand .pic:nth-child(5)::after{
+    width: 147px;
+    height: 74px;
+    content: url("https://img.shoplineapp.com/media/image_clips/62e0dd7cd0680b001199fe3d/original.png?1658903932");
+
+}
+
+.top_brand.pic{
+    /* padding: 20px; */
+    margin: 20px;
+}
+
+.top_brand .item{
+    text-align: center;
+    padding: 20px;
+}
+.top_brand .picture{
+    width: 1071px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.finally{
+    background-color: #ebf1f8;
+}
+
+.finally .wrap{
+    width: 1071px;
+    margin: auto;
+}
+
+.finally .item{
+    text-align: center;
+    padding:  0px 0px 30px 0px;
+}
+.finally h2{
+    font-size: 40px;
+    padding: 50px;
+    color: #052855;
+}
+
+.finally .button a{
+    display: block;
+    width: 160px;
+    padding: 10px 0px;
+    margin: auto;
+    background-color: #0061ff;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #00142d;
+    color: white;
+}
+
+footer .wrap{
+    width: 1071px;
+    margin: auto;
+}
+footer .top ul{
+    display: flex;
+    list-style: none;
+    padding: 30px 0px;
+    border-bottom: 1px solid white ;
+}
+
+footer .top li{
+    padding: 0px 20px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer .middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .middle ul li a{
+    border-bottom: 0px;
+    color: #9f9e9e;
+}
+
+footer .middle ul li a:hover{
+    color:white;
+}
+
+footer .button{
+    width: 1071px;
+    
+    
+}
+
+footer .button a {
+    display: inline-block;
+    width: 225px;
+    text-align: center;
+    background-color: #E3B54C;
+    padding: 5px 0;
+    color: #172B4D;
+    position: relative;
+    -webkit-animation: bt_move 5s ease infinite;
+    animation: bt_move 5s ease infinite;
+    font-weight: bold;
+}
+
+footer .business{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+footer .menu{
+    padding-bottom: 50px;
+}
+footer .menu a{
+    padding: 10px;
+    color: rgb(154, 154, 154);
+}
+
+
